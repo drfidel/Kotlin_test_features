@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.widget.Toast
 import cz.united121.kotlin.Java.MainActivity
+import cz.united121.kotlin.Kotlin.Test.callingWith
 import cz.united121.kotlin.Kotlin.UI.*
 import cz.united121.kotlin.R
 import kotlinx.android.synthetic.kotlin_layout.*
@@ -41,6 +42,7 @@ public class KotlinClass : AppCompatActivity() {
         }
         right.setOnClickListener{
             foreground.animateRight()
+            callingWith()
         }
         scale.setOnClickListener {
             foreground.scaleOut()
