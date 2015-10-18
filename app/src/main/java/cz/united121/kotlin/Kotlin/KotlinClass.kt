@@ -42,6 +42,9 @@ public class KotlinClass : AppCompatActivity() {
         right.setOnClickListener{
             foreground.animateRight()
         }
+        scale.setOnClickListener {
+            foreground.scaleOut()
+        }
 
     }
 
